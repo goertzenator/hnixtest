@@ -21,7 +21,8 @@
  # url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/19/4.yaml
 
 # resolver: lts-16.22
-resolver: nightly-2022-04-10  # ghc-9.2.2 (cabal error)
+# resolver: nightly-2022-04-10  # ghc-9.2.2 (cabal error)
+resolver: nightly-2022-04-20  # ghc-9.2.2 (cabal error)
 # resolver: lts-19.4   # ghc-9.0.2, doesn't like polysemy plugin at all (fails as per uke)
 # resolver: lts-18.28  # ghc-8.10.7, polysemy plugin errors.  Lacks cleff  (test ok)
 # resolver: lts-18.8    # ghc-8.10.6, polysemy plugin errors
@@ -49,7 +50,7 @@ packages:
 #
 # extra-deps: []
 extra-deps:
-- cleff-plugin-0.1.0.0
+# - cleff-plugin-0.1.0.0
 
 
 # Override default flag values for local packages and extra-deps

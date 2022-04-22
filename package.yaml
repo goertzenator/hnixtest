@@ -21,21 +21,21 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
-- cleff
-- cleff-plugin
-- polysemy
-- polysemy-plugin
+# - cleff
+# - cleff-plugin
+# - polysemy
+# - polysemy-plugin
 
 
 library:
   source-dirs: src
 
-ghc-options:
-- -Wall
-- -Werror
-- -O2
-- -fplugin=Cleff.Plugin
-- -fplugin=Polysemy.Plugin
+# ghc-options:
+# - -Wall
+# - -Werror
+# - -O2
+# - -fplugin=Cleff.Plugin
+# - -fplugin=Polysemy.Plugin
 
 
 
@@ -47,11 +47,11 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -Wall
-    - -Werror
-    - -O2
-    - -fplugin=Cleff.Plugin
-    - -fplugin=Polysemy.Plugin
+    # - -Wall
+    # - -Werror
+    # - -O2
+    # - -fplugin=Cleff.Plugin
+    # - -fplugin=Polysemy.Plugin
     dependencies:
     - hnixtest
 
